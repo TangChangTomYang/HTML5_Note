@@ -1,4 +1,4 @@
-
+多个傻大个
 
 ###一 什么是CSS?
 - **CSS 全称Cascading Style Sheets,层叠样式表,他用来控制HTML标签的样式,在美化网页的过程中起到重要的作用.**
@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="index.css">
  
     ```
-    rel 是relationship 关系的意思, href 是引用的文件,shang上面,这个引用关系可以这样理解, 引用的资源地址是"index.css" 引用的关系是 "stylesheet",表示引用的文件作为层叠样
+    rel 是relationship 关系的意思, href 是引用的文件,上面这句话可以这样理解, 引用的资源地址是"index.css" 引用的关系是 "stylesheet",表示引用的文件作为层叠样式y用.
     
     
     
@@ -89,6 +89,49 @@
 
 </html>
 
+```
+
+**CSS外部样式**
+**CSS 文件**
+```objc
+/*在css 文件中直接将对应标签的属性写出来即可,外部只要引用这个css 对应标签的属性则直接作用生效*/
+div{
+    background-color: cyan;
+    font: 30px;
+    
+}
+
+p{
+    
+    background-color: red;
+    color: orange;
+}
+```
+**html 文件**
+```objc
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <!--外部样式: 在单独的CSS 文件中书写,然后在网页中用link标签引用-->
+        <!--rel 是relationship 关系的意思, href 是引用的文件-->
+        <link rel="stylesheet" href="css/index.css">
+        <!--上面,这个引用关系可以这样理解, 引用的资源地址是"index.css" 引用的关系是 "stylesheet",表示引用的文件作为层叠样式表用-->
+
+    </head>
+    <body>
+
+        <div>我是CSS外部 样式的容器</div>
+        <div>我是CSS外部 样式的容器</div>
+        <div>我是CSS外部 样式的容器</div>
+
+        <p>我是CSS外部样式的容器   段落</p>
+        <p>我是CSS外部样式的容器   段落</p>
+
+    </body>
+</html>
 ```
     
     
