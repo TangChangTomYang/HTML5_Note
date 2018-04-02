@@ -132,6 +132,44 @@
 
 ```
 
+####五、 相邻兄弟选择器，只作用于相邻的标签
+写法：如下
+```objc
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+
+        <style>
+
+            /* 相邻兄弟选择器，只作用于相邻的标签*/
+            div + p{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+
+
+        <div>我是容器</div>
+        <div>我是容器</div>
+        <div>我是容器</div>
+        <div>我是容器</div>
+        <div>我是容器</div>
+        <p> 我是相邻段落</p>
+        <p> 我是段落</p>
+        <p> 我是段落</p>
+        <p> 我是段落</p>
+        <p> 我是段落</p>
+
+
+    </body>
+</html>
+
+
+```
+
 
 
 
