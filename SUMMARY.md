@@ -16,5 +16,5 @@
 * [003-脱离标准流](003tuo-li-biao-zhun-liu.md)
   * [001-脱离标准流](003tuo-li-biao-zhun-liu/001-.md)
   * [002-position 属性](003tuo-li-biao-zhun-liu/002-position-shu-xing.md)
-  * [003- 子标签居中](003tuo-li-biao-zhun-liu/003-zi-biao-qian-ju-zhong.md)
+  * [003- 子标签水平居中](003tuo-li-biao-zhun-liu/003-zi-biao-qian-ju-zhong.md)
 
