@@ -44,6 +44,25 @@ a{
 <label> 我行内label 标签</label>
 ```
 
+####三、行内块级标签
+特点：
+- 1、多个行内块级标签可以显示在一行
+- 2、行内块级标签可以随时设置宽度和高度（主要有： input\button）
+
+```objc
+行内标签 不能随时设置 宽度和高度
+行内块级标签 是行内标签的一种，可以随时设置宽度和高度
+button{
+    width: 200px;
+    height: 80px;
+}
+
+行内块级标签
+<button> 我 是 行内 块级标签</button>
+<input type="text" placeholder="我是行内块级标签">
+
+```
+
 
 
 
