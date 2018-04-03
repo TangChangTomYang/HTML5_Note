@@ -14,3 +14,71 @@
 
 
 **一旦，设置了position 标签就变成了 行内-块级标签了**
+
+
+####二、 定位子标签的要点
+**子 绝  父  相**
+
+```objc
+.test1{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    
+    position: relative; /*要定位子控件，父控件中的位置必须这样写*/
+}
+
+.test2{
+    width: 50px;
+    height: 50px;
+    /*设置圆角*/
+    border-radius: 25px;
+    background-color: cyan;
+    /* 父标签的position 只要不是static 就可以了，但是做好是absolute*/
+    position:absolute ; /*定位子控件，子控件中必须这样写*/
+    /*left: 5px;*/
+    /*top: 3px;*/
+
+    /*right: 0px;*/
+    /*bottom: 0px;*/
+
+    /*居中显示*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); /*向左 向上 各平移自身宽度 高度的 50%*/
+}
+
+.test3{
+
+    background-color: blue;
+}
+
+.test4{
+
+    background-color:  purple;
+    /*相对于浏览器定位,注意相对于浏览器就没有父控件了*/
+    position: fixed;
+    top: 10px;
+}
+
+<div class="test1">
+
+    <div class="test2"></div>
+    <div class="test3">fdsgasdglasjdgf;lsafglasglasdgal</div>
+
+</div>
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
