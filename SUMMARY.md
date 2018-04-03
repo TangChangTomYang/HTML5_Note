@@ -9,6 +9,6 @@
   * [005-伪类选择器](docs/001-HTML 5入门/005wei-lei-xuan-ze-qi.md)
   * [006-伪元素](docs/001-HTML 5入门/006wei-yuan-su.md)
   * [007-CSS 选择器的优先级 --重要](docs/001-HTML 5入门/007-css-xuan-ze-qi-de-you-xian-ji-zhong-yao.md)
-* 002-HTML标签的类型
-  * [001- 标签的类型](001-biao-qian-de-lei-xing.md)
+* [002-HTML标签的类型](002-htmlbiao-qian-de-lei-xing.md)
+  * [001-HTML标签的3种类型](002-htmlbiao-qian-de-lei-xing/001-htmlbiao-qian-de-3-zhong-lei-xing.md)
 
