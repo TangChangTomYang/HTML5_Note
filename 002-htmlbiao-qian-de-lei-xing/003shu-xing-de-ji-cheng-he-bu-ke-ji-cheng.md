@@ -5,8 +5,8 @@
   - 一般是**文字控制**属性
   
   示例如下：
-  ```objc
-  因为字体是继承的，所以下面的所有的标签都应用 .test 中的样式
+```objc
+因为字体是继承的，所以下面的所有的标签都应用 .test 中的样式
   
   .test {
     
@@ -14,9 +14,7 @@
     color: red;
     font-family: "Apple Chancery";
   }
-  
-
-  ```
+```
  
 - **2、不可继承属性：**
   - 父标签的属性值不会传递给子标签
@@ -32,6 +30,18 @@
       
       **visibility**、**cursor**
       
-  -内联标签可继承
+  - 内联标签可继承
   letter-spacing、word-spacing、white-spacing、**line-height**、**color**、**font** 、
   **font-family**、**font-size**、font-style、font-variant、 **font-weight**、**text-decoration**、text-transform、direction
+  
+  - 块级标签可继承
+  **text-indent**、**text-align**
+  
+  - 列标签可继承
+  **list-style**、list-style-type、list-style-position、list-style-image
+  
+  
+  
+  
+  
+  
