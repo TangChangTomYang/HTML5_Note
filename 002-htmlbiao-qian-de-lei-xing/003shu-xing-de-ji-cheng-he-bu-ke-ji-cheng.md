@@ -15,15 +15,23 @@
     font-family: "Apple Chancery";
   }
   
-  <div class="test">
-    <div> 我是段落标签 我是段落标签我是段落标签</div>
-    <p>我是段落表现</p>
-    <a href="#"> 我 是 超链接标签</a>
-  </div>
-
 
   ```
  
 - **2、不可继承属性：**
   - 父标签的属性值不会传递给子标签
   - 一般是**区块控制**属性
+  
+  
+  
+  
+  
+  ##CSS 常用属性 （粗体可继承）
+  
+  - 所有标签可继承
+      
+      **visibility**、**cursor**
+      
+  -内联标签可继承
+  letter-spacing、word-spacing、white-spacing、**line-height**、**color**、**font** 、
+  **font-family**、**font-size**、font-style、font-variant、 **font-weight**、**text-decoration**、text-transform、direction
