@@ -9,3 +9,7 @@
 
 
 - 非IE浏览器盒子模型
+![](/assets/none ie box.png)
+
+
+
