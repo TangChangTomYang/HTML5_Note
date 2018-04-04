@@ -1,4 +1,10 @@
 
+####一、行内标签水平居中
+
+
+水平居中：
+行内标签 和 行内块级标签在父控件中设置 text-align:center;
+块级标签:在自身设置 margin: 0 auto; 或者 margin-left:auto; margin-right:auto; 
 
 
 ```objc
